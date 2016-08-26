@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="org.spmakings.examshell.SplashActivity"
+    tools:showIn="@layout/activity_splash">
+
+    <!--<ImageView-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--android:scaleType="fitXY"-->
+    <!--android:src="@drawable/main_bg" />-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <org.spmakings.examshell.customview.AvenirRegular
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="4dp"
+            android:text="Welcome to"
+            android:textColor="@color/darker_gray"
+            android:textSize="26sp" />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <org.spmakings.examshell.customview.AvenirHeavy
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="@color/darker_gray"
+                android:textSize="50sp" />
+
+            <org.spmakings.examshell.customview.AvenirLight
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="elight"
+                android:textColor="@color/darker_gray"
+                android:textSize="40sp" />
+
+
+            <org.spmakings.examshell.customview.AvenirHeavy
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" I"
+                android:textColor="@color/darker_gray"
+                android:textSize="50sp" />
+
+            <org.spmakings.examshell.customview.AvenirLight
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nstitute"
+                android:textColor="@color/darker_gray"
+                android:textSize="40sp" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+    <org.spmakings.examshell.customview.AvenirRegular
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:text="All rights rerved @ Delight Institute"
+        android:textColor="@color/darker_gray"
+        android:textSize="10sp" />
+
+</RelativeLayout>

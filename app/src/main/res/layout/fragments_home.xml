@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3">
+
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/landing_pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.2"
+        android:background="@color/colorPrimary"></android.support.v4.view.ViewPager>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.8"
+        android:background="@android:color/white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingTop="40dp">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <org.spmakings.examshell.customview.AvenirRegular
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PRACTICE TEST FOR FUCKING"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp">
+
+
+                <org.spmakings.examshell.customview.AvenirLight
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="By"
+                    android:textColor="@color/colorPrimary" />
+
+                <org.spmakings.examshell.customview.AvenirHeavy
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="6dp"
+                    android:text="Delight Institute"
+                    android:textColor="@color/colorPrimary" />
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+                <org.spmakings.examshell.customview.AvenirRegular
+                    android:id="@+id/jest"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner_cyan_fill"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="34dp"
+                    android:paddingRight="34dp"
+                    android:paddingTop="10dp"
+                    android:text="JEST"
+                    android:textColor="@android:color/white" />
+
+                <org.spmakings.examshell.customview.AvenirRegular
+                    android:id="@+id/hons"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/rounded_corner_white_ring"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="34dp"
+                    android:paddingRight="34dp"
+                    android:paddingTop="10dp"
+                    android:text="HONORS EXAM"
+                    android:textColor="@color/darker_gray" />
+
+            </LinearLayout>
+
+
+            <org.spmakings.examshell.customview.AvenirRegular
+                android:id="@+id/msc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_corner_white_ring"
+                android:paddingBottom="10dp"
+                android:paddingLeft="22dp"
+                android:paddingRight="22dp"
+                android:paddingTop="10dp"
+                android:text="ENTRANCE EXAM FOR M.Sc"
+                android:textColor="@color/darker_gray" />
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+
+                <org.spmakings.examshell.customview.AvenirRegular
+                    android:id="@+id/get"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/rounded_corner_white_ring"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="38dp"
+                    android:paddingRight="38dp"
+                    android:paddingTop="10dp"
+                    android:text="GET"
+                    android:textColor="@color/darker_gray" />
+
+                <org.spmakings.examshell.customview.AvenirRegular
+                    android:id="@+id/tifr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/rounded_corner_white_ring"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="38dp"
+                    android:paddingRight="38dp"
+                    android:paddingTop="10dp"
+                    android:text="TIFR"
+                    android:textColor="@color/darker_gray" />
+
+
+                <org.spmakings.examshell.customview.AvenirRegular
+                    android:id="@+id/net"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:background="@drawable/rounded_corner_white_ring"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="38dp"
+                    android:paddingRight="38dp"
+                    android:paddingTop="10dp"
+                    android:text="NET"
+                    android:textColor="@color/darker_gray" />
+
+            </LinearLayout>
+
+            <org.spmakings.examshell.customview.AvenirRegular
+                android:id="@+id/jam"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rounded_corner_white_ring"
+                android:paddingBottom="10dp"
+                android:paddingLeft="34dp"
+                android:paddingRight="34dp"
+                android:paddingTop="10dp"
+                android:text="JAM"
+                android:textColor="@color/darker_gray" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+

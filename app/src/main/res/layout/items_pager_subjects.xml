@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/sub_main_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="#90000000"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:paddingBottom="16dp"
+        android:paddingTop="16dp"
+        android:visibility="gone">
+
+        <org.spmakings.examshell.customview.AvenirLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Practice Test of"
+            android:textColor="@android:color/white"
+            android:textSize="16sp" />
+
+
+        <org.spmakings.examshell.customview.AvenirRegular
+            android:id="@+id/sub_name_main"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="8dp"
+            android:text="JEST"
+            android:textColor="@android:color/white"
+            android:textSize="20sp" />
+
+
+        <org.spmakings.examshell.customview.AvenirLight
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp"
+            android:text="by"
+            android:textColor="@android:color/white" />
+
+        <LinearLayout
+            android:id="@+id/header_lvl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingTop="10dp">
+
+            <org.spmakings.examshell.customview.AvenirHeavy
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="D"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <org.spmakings.examshell.customview.AvenirLight
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="elight"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+
+            <org.spmakings.examshell.customview.AvenirHeavy
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" I"
+                android:textColor="@android:color/white"
+                android:textSize="30sp" />
+
+            <org.spmakings.examshell.customview.AvenirLight
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="nstitute"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
